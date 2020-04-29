@@ -1,0 +1,93 @@
+a, li {
+  text-decoration: none !important; }
+
+.active, .home-li:hover {
+  background-color: goldenrod;
+  color: white; }
+
+header {
+  background-color: lightgray;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  z-index: 300;
+  opacity: 0.9;
+  transition: .5s; }
+  header a {
+    color: maroon !important; }
+  header .home-li {
+    border: none;
+    outline: none;
+    cursor: pointer; }
+  header li {
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    color: goldenrod; }
+  header li:hover {
+    color: white !important;
+    transition: 0.3s; }
+
+.section1 {
+  background-image: url("images/computer-2982270_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  background-color: white; }
+  .section1 .txt1 {
+    padding: 5%;
+    background: #fff;
+    opacity: 0.8;
+    color: goldenrod;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px; }
+
+.pictures-zoom:hover {
+  transform: scale(1.2);
+  transition: 0.6s;
+  transition-duration: 1s; }
+
+.footerImage {
+  background-image: url("images/footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 80%; }
+
+footer {
+  background-color: silver; }
+  footer a {
+    color: green; }
+
+.icon2 {
+  color: darkred; }
+
+.Portfolio {
+  padding-top: 13%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: goldenrod; }
+
+.aboutSection {
+  background-color: white;
+  background-position: center; }
+  .aboutSection .aboutImage {
+    padding-top: 10%;
+    background-image: url("images/about-us.jpg");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    height: 500px;
+    background-position: center; }
+  .aboutSection .txt1 {
+    background: #fff;
+    color: goldenrod; }
+
+/*# sourceMappingURL=style.css.map */
